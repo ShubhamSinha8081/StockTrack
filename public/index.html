@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StockTrackr</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+          <img src="/image/logo.png" alt="Logo" class="src">
+        </div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#complaint">Complaint</a></li>
+          <li><a href="#learn">Learn</a></li>
+        </ul>
+    </nav>
+    
+    <div class="stocks-container">
+        <div class="stock-box" id="GOOGL">
+            <img src="/image/google_logo.png" alt="Google">
+            <h2>Google</h2>
+            <p id="GOOGL-price">Loading...</p>
+        </div>
+        <div class="stock-box" id="AAPL">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg" alt="Apple">
+            <h2>Apple</h2>
+            <p id="AAPL-price">Loading...</p>
+        </div>
+        <div class="stock-box" id="AMZN">
+            <img src="/image/amazon_logo.png" alt="Amazon">
+            <h2>Amazon</h2>
+            <p id="AMZN-price">Loading...</p>
+        </div>
+        <div class="stock-box" id="MSFT">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg" alt="Microsoft">
+            <h2>Microsoft</h2>
+            <p id="MSFT-price">Loading...</p>
+        </div>
+        <div class="stock-box" id="NVDA">
+            <img src="/image/nvidia_logo.png" alt="NVIDIA">
+            <h2>NVIDIA</h2>
+            <p id="NVDA-price">Loading...</p>
+        </div>
+        <div class="stock-box" id="TSLA">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/b/bb/Tesla_T_symbol.svg" alt="Tesla">
+            <h2>Tesla</h2>
+            <p id="TSLA-price">Loading...</p>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
